@@ -5,13 +5,15 @@ andoid_icon: assets/img/avatar-icon.png
 
 {{ content }}
 
-<div>Download Android App</div>
-<div>iOS app coming soon</div>
-<div class="list-inline-item">
-  <a href="https://play.google.com/store/apps/details?id=com.healthpray.samputa" aria-label="Download">
-    <img src="assets/img/google-play-badge.png" alt="Download" width="100" height="50">
-  </a>
-</div>
+
+<div style="text-align:center;">
+  <div class="list-inline-item">
+    <a href="https://play.google.com/store/apps/details?id=com.healthpray.samputa" aria-label="Download">
+      <img src="assets/img/google-play-badge.png" alt="Download" width="150" height="150">
+    </a>
+  </div>
+  <div>iOS app coming soon</div>
+<div>
 {% assign posts = paginator.posts | default: site.posts %}
 <div class="posts-list">
   {% for post in posts %}
